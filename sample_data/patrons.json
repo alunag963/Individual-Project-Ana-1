@@ -1,66 +1,47 @@
 {
   "-MiBsfuTafbEQ7eAULxV" : {
-    "email" : "ta@ta.com",
+    "email" : "jprado@gmail.com",
     "firebaseKey" : "-MiBsfuTafbEQ7eAULxV",
-    "first_name" : "Tomi",
-    "last_name" : "Adeyemi",
-    "favorite": true,
+    "patron_id" : "jprado123" ,
+    "first_name" : "Julissa",
+    "last_name" : "Prado",
+    "introduce_yourself!" : "Curl enthusiast and CEO/owner of Rizos Curls!",
     "uid": ""
   },
   "-MiBt86VzkC-EGmJnxjm" : {
     "email" : "ba@obama.com",
     "firebaseKey" : "-MiBt86VzkC-EGmJnxjm",
-    "first_name" : "Barack",
-    "last_name" : "Obama",
-    "favorite": true,
+    "patron_id" : "teross456@gmail.com" ,
+    "first_name" : "Tracee E.",
+    "last_name" : "Ross",
+    "introduce_yourself!" : "You might know me as Joan ^-^ I'm an actress, singer, TV host, producer, director, and owner of Pattern Beauty. Here for the curl and wine suggestions.",
     "uid": ""
   },
   "-MiBtwf1BwN9pGavQeR3" : {
     "email" : "hz@zinn.com",
     "firebaseKey" : "-MiBtwf1BwN9pGavQeR3",
-    "first_name" : "Howard",
-    "last_name" : "Zinn",
-    "favorite": false,
+    "patron_id" : "sraaramos@gmail.com" ,
+    "first_name" : "Alba",
+    "last_name" : "Ramos",
+    "introduce_yourself!" : "Wife.Mother.Naturalista. DR 4 LYFE",
     "uid": ""
   },
   "-MiBuOfHv9NCKB_cneij" : {
     "email" : "at@thomas.com",
     "firebaseKey" : "-MiBuOfHv9NCKB_cneij",
-    "first_name" : "Angie",
-    "last_name" : "Thomas",
-    "favorite": false,
+    "patron_id" : "woaw@gmail.com" ,
+    "first_name" : "Will",
+    "last_name" : "Humphries",
+    "introduce_yourself!" : "Youtuber @WillOnAWhim and curl enthusiast!",
     "uid": ""
   },
   "-MiBulenBnY8by9Xn7q1" : {
     "email" : "cw@whithead.com",
     "firebaseKey" : "-MiBulenBnY8by9Xn7q1",
-    "first_name" : "Colson",
-    "last_name" : "Whitehead",
-    "favorite": false,
-    "uid": ""
-  },
-  "-MiBv9_aOEJQWoobjz_U" : {
-    "email" : "mk@kendall.com",
-    "firebaseKey" : "-MiBv9_aOEJQWoobjz_U",
-    "first_name" : "Mikki",
-    "last_name" : "Kendall",
-    "favorite": true,
-    "uid": ""
-  },
-  "-MiBvQiWr6XNwNa1i3-0" : {
-    "email" : "lm@lm.com",
-    "firebaseKey" : "-MiBvQiWr6XNwNa1i3-0",
-    "first_name" : "L.L",
-    "last_name" : "McKinney",
-    "favorite": true,
-    "uid": ""
-  },
-  "-MiBw4tCvNZd23yTVDQw" : {
-    "email" : "jb@baldwin.com",
-    "firebaseKey" : "-MiBw4tCvNZd23yTVDQw",
-    "first_name" : "James",
-    "last_name" : "Baldwin",
-    "favorite": false,
+    "patron_id" : "sbrown@gmail.com" ,
+    "first_name" : "Sancal",
+    "last_name" : "Brown",
+    "introduce_yourself!" : "Jacksonville till I dry. PE Teacher and full-time cat mom. Love your curls and love yourself.",
     "uid": ""
   }
 }
