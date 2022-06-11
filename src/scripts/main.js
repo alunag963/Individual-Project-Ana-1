@@ -5,14 +5,12 @@ import '../styles/main.scss';
 
 const init = () => {
   document.querySelector('#app').innerHTML = `
-    <h1>HELLO! You are up and running!</h1>
-    <small>Open your dev tools</small><br />
-    <button class="btn btn-danger" id="click-me">Click ME!</button><br />
+    <h2>Welcome to Ur Curlfriend! We're an online safespace for friends with curls, kinks, and everything inbetween! Create your own profile to describe yourself, feel free to add products, view blog posts, and showcase reviews with your fellow Curlfriends! </h2>
+    <button class="btn btn-danger" id="click-me"></button><br />
     <hr />
-    <h2>These are font awesome icons:</h2>
-    <i class="fas fa-user fa-4x"></i> <i class="fab fa-github-square fa-5x"></i>
+    <h2>Brought to you by Ur Curlfriend</h2>
   `;
-  console.warn('YOU ARE UP AND RUNNING!');
+  console.warn('get into it yuh yuh yuh');
 
   document
     .querySelector('#click-me')
