@@ -2,6 +2,11 @@ import { getProducts } from '../../../api/data/productsData';
 import { showProducts } from '../../../components/pages/products';
 import signOut from '../signOut';
 
+// SATURDAY MORNING 6.11 work on showproducts
+// work adding product cards
+// cont. to other blogs and reviews cards
+// img png logo and prod
+
 // navigation events
 const navigationEvents = () => {
   // LOGOUT BUTTON

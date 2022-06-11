@@ -6,14 +6,14 @@ const dbUrl = firebaseConfig.databaseURL;
 
 // TODO: GET PRODUCTS
 const getProducts = () => new Promise((resolve, reject) => {
-  axios.get(`${dbUrl}/Products.json`)
+  axios.get(`${dbUrl}/products.json`)
     .then((response) => resolve(Object.values(response.data))
       .catch((error) => reject(error)));
 });
 
 // TODO: DELETE PRODUCT
 const deleteProduct = (firebaseKey) => new Promise((resolve, reject) => {
-  axios.delete(`${dbUrl}/Products/${firebaseKey}.json`)
+  axios.delete(`${dbUrl}/products/${firebaseKey}.json`)
     .then(() => {
       getProducts().then((productsArray) => resolve(productsArray));
     })

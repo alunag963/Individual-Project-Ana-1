@@ -1,6 +1,6 @@
-// import { deleteBook } from '../../api/bookData';
-// import viewBookDetails from '../../api/mergedData';
-// import { showBooks } from '../components/pages/books';
+import { deleteProduct } from '../../../api/data/productsData';
+import viewProductsDetails from '../../../api/mergedData';
+import { showProducts } from '../../../components/pages/products';
 import viewProducts from '../../../components/pages/productsPage';
 
 const domEvents = () => {
@@ -11,7 +11,7 @@ const domEvents = () => {
       if (window.confirm('Want to delete?')) {
         const [, firebaseKey] = e.target.id.split('--');
 
-        deleteBook(firebaseKey).then((booksArray) => showBooks(booksArray));
+        deleteProduct(firebaseKey).then((productsArray) => showProducts(productsArray));
       }
     }
 
@@ -29,7 +29,7 @@ const domEvents = () => {
     if (e.target.id.includes('view-book-btn')) {
       const [, bookFirebaseKey] = e.target.id.split('--');
 
-      viewBookDetails(bookFirebaseKey).then((bookAutherObject) => viewProducts(bookAutherObject));
+      viewProductsDetails(bookFirebaseKey).then((bookAutherObject) => viewProducts(bookAutherObject));
     }
 
     // FIXME: ADD CLICK EVENT FOR DELETING AN AUTHOR
