@@ -1,5 +1,5 @@
 // put in products cards
-import { getProducts } from '../../api/data/productsData';
+import { getProducts } from '../../api/productsData';
 import logoutButton from '../../components/buttons/logoutButton';
 import domBuilder from '../../components/pages/domBuilder';
 import navBar from '../../components/pages/navBar';

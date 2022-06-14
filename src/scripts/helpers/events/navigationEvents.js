@@ -1,4 +1,4 @@
-import { getProducts } from '../../../api/data/productsData';
+import { getProducts } from '../../../api/productsData';
 import { showProducts } from '../../../components/pages/products';
 import signOut from '../signOut';
 
